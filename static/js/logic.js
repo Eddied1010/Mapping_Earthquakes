@@ -10,14 +10,18 @@ let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 //    zoom: 4
 //   });
 
-//    var marker = L.marker([51.5, -0.09]).addTo(map);
+//var marker = L.marker([51.5, -0.09]).addTo(map);
+//let popup = L.popup([34.0522, -118.2437]).addTo(map);
+//      maxWidth: 200,
+//      minWidth: 50
+//  }).addTo(map);
 
 //  Add a marker to the map for Los Angeles, California.
 let marker = L.circleMarker([34.0522, -118.2437],{
-  radius: 300,
-  color: "black",
+  radius: 200,
+  color: "yellow",
   fillColor: '#ffffa1'
-}).addTo(map);
+ }).addTo(map);
 
 
 // We create the tile layer that will be the background of our map. ----- set the background of Map Layer - STREET LAYER
